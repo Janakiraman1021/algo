@@ -1,0 +1,15 @@
+# AgentPay - Root .gitignore
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+*.pyc
+.env
+.env.local
+backend/.env
+frontend/.env.local
+x402-adapter/.env
+.pytest_cache/
+.coverage
+*.log

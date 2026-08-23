@@ -1,0 +1,33 @@
+{
+  "name": "agentpay-x402-adapter",
+  "version": "1.0.0",
+  "description": "Lightweight x402 payment facilitation and AVM adapter service for Algorand",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "x402",
+    "algorand",
+    "avm",
+    "agentpay",
+    "micropayments"
+  ],
+  "author": "AgentPay",
+  "license": "MIT",
+  "dependencies": {
+    "algosdk": "^2.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
